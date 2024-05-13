@@ -9,6 +9,10 @@ app.use(cors());
 
 const PORT = process.env.PORT || 8080;
 
+app.get("/", (req, res) => {
+   res.send('api running')
+})
+
 // Step: 1
 // Create an email transporter.
 // SMTP (Simple Mail Transfer Protocol.)
