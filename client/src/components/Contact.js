@@ -127,7 +127,7 @@ const Contact = () => {
     }
     try {
       let response = await fetch(
-        'http://localhost:8080/contact',
+        'https://my-portfolio-vert-xi.vercel.app/contact',
         {
           method: 'POST',
           headers: {
