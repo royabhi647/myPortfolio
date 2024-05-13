@@ -127,7 +127,7 @@ const Contact = () => {
     }
     try {
       let response = await fetch(
-        'https://my-portfolio-royabhi647s-projects.vercel.app/contact',
+        'https://myportfolio-5vvl.onrender.com/contact',
         {
           method: 'POST',
           headers: {
