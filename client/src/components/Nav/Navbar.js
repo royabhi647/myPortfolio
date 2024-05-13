@@ -191,13 +191,13 @@ const Navbar = ({ isOpen, setIsOpen, theme, setTheme }) => {
               window.innerWidth < 768
                 ? 'images/linkedinDark.png'
                 : theme === 'darkTheme'
-                ? 'images/linkedinDark.png'
-                : 'images/linkedinLight.png'
+                  ? 'images/linkedinDark.png'
+                  : 'images/linkedinLight.png'
             }
             alt='linkedin'
             aria-label='linkedin icon'
           />
-          
+
         </StyledA>
         <StyledA
           href='https://github.com/royabhi647'
@@ -212,43 +212,73 @@ const Navbar = ({ isOpen, setIsOpen, theme, setTheme }) => {
               window.innerWidth < 768
                 ? 'images/githubDark.png'
                 : theme === 'darkTheme'
-                ? 'images/githubDark.png'
-                : 'images/githubLight.png'
+                  ? 'images/githubDark.png'
+                  : 'images/githubLight.png'
             }
             alt='github'
             aria-label='github icon'
           />
         </StyledA>
-        <i tabIndex='0s' title='Twitter'>
+        <StyledA
+          href='https://leetcode.com/u/royabhi647/'
+          target='_blank'
+          rel='noopener noreferrer'
+          title='Leetcode'
+          tabIndex='0s'
+          aria-label='leetcode icon'
+        >
           <img
             src={
               window.innerWidth < 768
-                ? 'images/twitterDark.png'
+                ? 'images/leetcodeDark.png'
                 : theme === 'darkTheme'
-                ? 'images/twitterDark.png'
-                : 'images/twitterLight.png'
+                  ? 'images/leetcodeDark.png'
+                  : 'images/leetcodeLight.png'
             }
-            alt='twitter'
-            aria-label='twitter icon'
-            height='24px'
-            width='24px'
+            alt='leetcode'
+            aria-label='leetcode icon'
           />
-        </i>
-        <i title='Email' tabIndex='0s'>
+        </StyledA>
+        <StyledA
+          href='https://www.hackerrank.com/profile/royabhi647'
+          target='_blank'
+          rel='noopener noreferrer'
+          title='Hacker-Rank'
+          tabIndex='0s'
+          aria-label='hackerrank icon'
+        >
           <img
             src={
               window.innerWidth < 768
-                ? 'images/emailDark.png'
+                ? 'images/hackerrankDark.png'
                 : theme === 'darkTheme'
-                ? 'images/emailDark.png'
-                : 'images/emailLight.png'
+                  ? 'images/hackerrankDark.png'
+                  : 'images/hackerrankLight.png'
             }
-            alt='twitter'
-            aria-label='twitter icon'
-            height='24px'
-            width='24px'
+            alt='hackerrank'
+            aria-label='hackerrank icon'
           />
-        </i>
+        </StyledA>
+        <StyledA
+          href='https://www.geeksforgeeks.org/user/royabhi647/'
+          target='_blank'
+          rel='noopener noreferrer'
+          title='GeeksForGeeks'
+          tabIndex='0s'
+          aria-label='gfg icon'
+        >
+          <img
+            src={
+              window.innerWidth < 768
+                ? 'images/geeksforgeeksDark.png'
+                : theme === 'darkTheme'
+                  ? 'images/geeksforgeeksDark.png'
+                  : 'images/geeksforgeeksLight.png'
+            }
+            alt='leetcode'
+            aria-label='leetcode icon'
+          />
+        </StyledA>
       </>
     )
   }
