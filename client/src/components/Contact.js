@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import styled from 'styled-components/macro'
 import { useNav } from '../hooks/useNav'
 
+
 const StyledContactWrapper = styled.section`
   width: 100%;
   box-sizing: border-box;
@@ -124,10 +125,9 @@ const Contact = () => {
       email: email,
       message: message,
     }
-    console.log("details", details);
     try {
       let response = await fetch(
-        'http://localhost:5000/contact',
+        'http://localhost:8080/contact',
         {
           method: 'POST',
           headers: {
@@ -140,7 +140,7 @@ const Contact = () => {
       alert(data.status)
       setFormData({ email: '', name: '', message: '' })
     } catch {
-      alert('Something went wrong')
+      alert('Something went wrong here')
     }
   }
   return (
