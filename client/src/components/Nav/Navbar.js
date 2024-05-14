@@ -317,7 +317,7 @@ const Navbar = ({ isOpen, setIsOpen, theme, setTheme }) => {
         role='img'
         aria-label='name'
         tabIndex='-1'
-        aria-labelledby='aryaman'
+        aria-labelledby='Abhishek'
       >
         <img
           src={
@@ -329,7 +329,7 @@ const Navbar = ({ isOpen, setIsOpen, theme, setTheme }) => {
           title='initials'
           tabIndex='0'
           aria-label='initials'
-          aria-labelledby='aryaman'
+          aria-labelledby='Abhishek'
         />
       </StyledName>
       <StyledLinks>
