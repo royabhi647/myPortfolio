@@ -289,7 +289,7 @@ const AboutMe = () => {
                     <StyledLi>
                       <Fade triggerOnce>
                         <StyledLiContent>
-                          <div>Full Stack Developer Intern</div>
+                          <div>Full Stack Developer</div>
                           <p>Whizlabs Software Pvt Ltd</p>
                           <span>Nov 2023- Apr 2023</span>
                         </StyledLiContent>
@@ -298,7 +298,7 @@ const AboutMe = () => {
                     <StyledLi>
                       <Fade delay={1150} triggerOnce>
                         <StyledLiContent>
-                          <div>React.js Developer Intern</div>
+                          <div>React.js Developer</div>
                           <p>Futuristic Labs</p>
                           <span>Mar 2023- Aug 2023</span>
                         </StyledLiContent>
