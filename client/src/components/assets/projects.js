@@ -29,8 +29,8 @@ export const FeaturedProjectsList = [
       'A Shopping platform allowing customers to browse and purchase products with ease. Users can apply filters to refine their product searches and explore items within specific categories. The platform also features a convenient cart system, enabling users to add products and proceed to secure payment processing.',
     languages: ['React', 'JavaScript', 'Tailwind', 'Express', 'MongoDB', 'Redux', 'Stripe'],
     img: 'images/modishmart.jpg',
-    live: 'https://github.com/royabhi647/MERN-DASHBOARD',
-    github: 'https://github.com/royabhi647/MERN-DASHBOARD',
+    live: 'https://abhii-modishmart.netlify.app/',
+    github: 'https://github.com/royabhi647/Modish-Mart',
   },
 ]
 
