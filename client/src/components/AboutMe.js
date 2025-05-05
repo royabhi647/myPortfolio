@@ -286,12 +286,21 @@ const AboutMe = () => {
                 </Fade>
                 <StyledExp>
                   <StyledUl>
+                  <StyledLi>
+                      <Fade triggerOnce>
+                        <StyledLiContent>
+                          <div>Frontend Developer</div>
+                          <p>Crystal Tech Lab</p>
+                          <span>Aug 2024 - current</span>
+                        </StyledLiContent>
+                      </Fade>
+                    </StyledLi>
                     <StyledLi>
                       <Fade triggerOnce>
                         <StyledLiContent>
                           <div>Full Stack Developer</div>
                           <p>Whizlabs Software Pvt Ltd</p>
-                          <span>Nov 2023- Apr 2023</span>
+                          <span>Nov 2023 - Apr 2024</span>
                         </StyledLiContent>
                       </Fade>
                     </StyledLi>
@@ -300,7 +309,7 @@ const AboutMe = () => {
                         <StyledLiContent>
                           <div>React.js Developer</div>
                           <p>Futuristic Labs</p>
-                          <span>Mar 2023- Aug 2023</span>
+                          <span>Mar 2023 - Aug 2023</span>
                         </StyledLiContent>
                       </Fade>
                     </StyledLi>
@@ -309,7 +318,7 @@ const AboutMe = () => {
                         <StyledLiContent>
                           <div>Web Development Intern</div>
                           <p>Pepcoding Education Pvt Ltd</p>
-                          <span>Jul 2022- Dec 2022</span>
+                          <span>Jul 2022 - Dec 2022</span>
                         </StyledLiContent>
                       </Fade>
                     </StyledLi>
